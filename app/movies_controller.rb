@@ -29,7 +29,7 @@ def can_be_created_in_a_block
 end
 
 def can_get_the_first_item_in_the_database
-  movie = Movie.first
+  movie = Movies.first
   movie
 end
 
