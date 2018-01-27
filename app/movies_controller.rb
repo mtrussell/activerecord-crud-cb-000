@@ -35,7 +35,7 @@ end
 
 def can_get_the_last_item_in_the_database
   movie = Movie.last
-  movie.last
+  movie.title
 end
 
 def can_get_size_of_the_database
